@@ -1,0 +1,69 @@
+{
+  "name": "add-subtract-date",
+  "version": "1.0.0",
+  "description": "Add or subtract a specified time in a date object.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/add-subtract-date.git"
+  },
+  "keywords": [
+    "date",
+    "add",
+    "subtract"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/add-subtract-date/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/add-subtract-date#readme",
+  "blah": {
+    "documentation": [
+      {
+        "p": [
+          [
+            "The module exports an object containing two methods: `add`",
+            "(goes in the future) and `subtract` (goes in the past).",
+            "They require the following arguments:"
+          ]
+        ]
+      },
+      {
+        "ul": [
+          "`d` (Date): The date object.",
+          "`count` (Number): How many years/months/etc to add/subtract.",
+          [
+            "`what` (String): What to add/subtract. Supported values are:",
+            {
+              "ul": [
+                "`years`",
+                "`year`",
+                "`months`",
+                "`month`",
+                "`weeks`",
+                "`week`",
+                "`days`",
+                "`day`",
+                "`hours`",
+                "`hour`",
+                "`minutes`",
+                "`minute`",
+                "`seconds`",
+                "`second`",
+                "`milliseconds`",
+                "`millisecond`"
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}
