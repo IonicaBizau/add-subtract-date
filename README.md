@@ -1,14 +1,18 @@
+
 # add-subtract-date [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/add-subtract-date.svg)](https://www.npmjs.com/package/add-subtract-date) [![Downloads](https://img.shields.io/npm/dt/add-subtract-date.svg)](https://www.npmjs.com/package/add-subtract-date) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Add or subtract a specified time in a date object.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save add-subtract-date
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const addSubtractDate = require("add-subtract-date");
@@ -40,16 +44,23 @@ console.log(addSubtractDate.subtract(d, 1, "week"));
 // => Wed Dec 28 1988 10:42:07 GMT+0200 (EET)
 ```
 
-## Documentation
+## :memo: Documentation
+
+
+### `gen()`
+
+
+
 
 The module exports an object containing two methods: `add`
 (goes in the future) and `subtract` (goes in the past).
 They require the following arguments:
 
+
  - `d` (Date): The date object.
  - `count` (Number): How many years/months/etc to add/subtract.
  - `what` (String): What to add/subtract. Supported values are:
-    
+
      - `years`
      - `year`
      - `months`
@@ -66,17 +77,19 @@ They require the following arguments:
      - `second`
      - `milliseconds`
      - `millisecond`
-    
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`daty`](https://github.com/IonicaBizau/daty#readme)
 
-## License
+ - [`daty`](https://github.com/IonicaBizau/daty#readme)—A tiny library to manage date objects.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
