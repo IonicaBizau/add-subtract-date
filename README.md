@@ -46,6 +46,15 @@ console.log(addSubtractDate.subtract(d, 1, "week"));
 // => Wed Dec 28 1988 10:42:07 GMT+0200 (EET)
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 ## :memo: Documentation
 
 
@@ -55,9 +64,7 @@ console.log(addSubtractDate.subtract(d, 1, "week"));
 
 
 The module exports an object containing two methods: `add`
-
 (goes in the future) and `subtract` (goes in the past).
-
 They require the following arguments:
 
 
@@ -81,6 +88,8 @@ They require the following arguments:
      - `second`
      - `milliseconds`
      - `millisecond`
+
+
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
