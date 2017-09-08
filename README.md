@@ -68,9 +68,7 @@ There are few ways to get help:
 
 
 The module exports an object containing two methods: `add`
-
 (goes in the future) and `subtract` (goes in the past).
-
 They require the following arguments:
 
 
