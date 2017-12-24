@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save add-subtract-date
+# Using npm
+npm install --save add-subtract-date
+
+# Using yarn
+yarn add add-subtract-date
 ```
 
 
