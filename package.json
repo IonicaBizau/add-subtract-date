@@ -1,6 +1,6 @@
 {
   "name": "add-subtract-date",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Add or subtract a specified time in a date object.",
   "main": "lib/index.js",
   "directories": {
